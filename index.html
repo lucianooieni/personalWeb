@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href="dist/hamburgers.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Portafolio CV - lucianooieni</title>
+  <meta name="description" content="">
+</head>
+
+<body id="body">
+  <article class="loader" id="loader">
+    <div class="box-loader">
+      <div class="title-loader">
+        <div class="block"></div>
+        <h2 class="block-title">Luciano Oieni<span></span></h2>
+      </div>
+      <div class="role-loader">
+        <div class="block"></div>
+        <p>WEB DEVELOPER </p>
+      </div>
+    </div>
+  </article>
+  <header id="header" class="header">
+    <section class="header-container">
+      <div class="logo">
+        <a href="index.html#home">LucianoOieni</a>
+      </div>
+      <button class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <nav class="menu" id="menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </section>
+  </header>
+  <main id="home" class="home">
+    <section class="container">
+      <section id="social-media" class="social-media none">
+        <div class="box flex-column-center">
+          <a class="icon-social" href="https://twitter.com/lucianooienidev" target="_blank" rel="noopener"><i
+              class="fa-brands fa-twitter"></i></a>
+          <a class="icon-social" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+          <a class="icon-social" href="https://www.linkedin.com/in/lucianooieni/" target="_blank" rel="noopener"><i
+              class="fa-brands fa-linkedin-in"></i></a>
+          <a class="icon-social" href="https://github.com/lucianooieni" target="_blank" rel="noopener"><i
+              class="fa-brands fa-github"></i></a>
+        </div>
+      </section>
+      <div class="triangle-equilateral bottom-left"></div>
+      <div class="triangle-equilateral bottom-right"></div>
+      <div class="triangle-equilateral top-left"></div>
+      <div class="triangle-equilateral top-right"></div>
+      <div class="main-title flex-column">
+        <div class="title-content">
+          <h1 class="home-title">
+            <span class="letter">H</span><span class="letter">i</span><span class="letter">,</span>
+            <br>
+            <span class="letter">I</span><span class="letter">'</span><span class="letter">m</span>
+            <span class="letter">L</span><span class="letter">u</span><span class="letter">c</span><span
+              class="letter">i</span><span class="letter">a</span><span class="letter">n</span><span
+              class="letter">o</span>
+            <span class="letter">O</span><span class="letter">i</span><span class="letter">e</span><span
+              class="letter">n</span><span class="letter">i</span><span class="letter">,</span>
+            <br>
+            <span class="letter">w</span><span class="letter">e</span><span class="letter">b</span>
+            <span class="letter">d</span><span class="letter">e</span><span class="letter">v</span><span
+              class="letter">e</span><span class="letter">l</span><span class="letter">o</span><span
+              class="letter">p</span><span class="letter">e</span><span class="letter">r</span><span
+              class="letter">.</span>
+          </h1>
+          <br>
+          <span id="typed" class="typed-text"></span><span id="typed-cursor" class="typed-cursor">|</span>
+        </div>
+        <a class="btn" href="#contact">Contact Me</a>
+      </div>
+    </section>
+  </main>
+  <section id="about" class="about">
+    <div class="container flex-column">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <header>
+            <h3 class="subtitle">Introduction</h3>
+          </header>
+          <div class="about-description">
+            <p>What I can say about myself is that I am a person who likes challenges and is constantly learning. I feel
+              like a proactive person and committed to what I do, which is programming.</p>
+          </div>
+          <a class="btn" href="assets/pdf/lucianooieni-cv.pdf" target="_blank">Download
+            CV</a>
+        </div>
+        <div class="about-img-content flex-row-center">
+          <img class="about-img" src="./assets/img.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills">
+    <div class="container flex-column">
+      <h2 class="title"><span>Skills</span></h2>
+      <div class="text-zone">
+        <header>
+          <h3 class="subtitle">My Habilities</h3>
+        </header>
+        <p>I am a fullstack developer or trying to be. I currently have knowledge of the frontend side of html, css,
+          javascript, react and redux. handle design frameworks such as bootrastrap and telwind, among others. In the
+          backend I have knowledge in node.js and express.js. I have knowledge of relational and non-relational
+          databases.</p>
+      </div>
+      <div class="skills-content">
+        <div class="skills-details">
+          <div class="chart">
+            <span>Front-end</span>
+            <footer>
+              <div style="width: 80%"></div>
+            </footer>
+          </div>
+          <div class="chart">
+            <span>Back-end</span>
+            <footer>
+              <div style="width: 50%; background-color: #FF2253;"></div>
+            </footer>
+          </div>
+          <div class="chart">
+            <span>ReactJS</span>
+            <footer>
+              <div style="width: 75%; background-color: #D26CD5;"></div>
+            </footer>
+          </div>
+        </div>
+        <div class="skills-slider">
+          <div class="skills-slide-track">
+            <div class="skills-slide">
+              <img src="assets/html-5.png" alt="html">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/css-3.png" alt="css">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/js.png" alt="js">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/bootstrap.png" alt="bootstrap">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/sass.png" alt="sass">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/gulp.png" alt="gulp">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/react.png" alt="react">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/mysql.png" alt="mysql">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/sql-server.png" alt="sql-server">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/git.png" alt="git">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/node.png" alt="node">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/webpack.png" alt="webpack">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/mongodb.png" alt="mongodb">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/python.png" alt="python">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/c.png" alt="c">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/html-5.png" alt="html">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/css-3.png" alt="css">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/js.png" alt="js">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/bootstrap.png" alt="bootstrap">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/sass.png" alt="sass">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/gulp.png" alt="gulp">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/react.png" alt="react">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/mysql.png" alt="mysql">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/sql-server.png" alt="sql-server">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/git.png" alt="git">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/node.png" alt="node">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/webpack.png" alt="webpack">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/mongodb.png" alt="mongodb">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/python.png" alt="python">
+            </div>
+            <div class="skills-slide">
+              <img src="assets/c.png" alt="c">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <div class="container flex-column-center">
+      <h2 class="title">Works</h2>
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-img">
+                <img src="assets/mystery.jpg" alt="mystery">
+              </div>
+              <div class="slide-info">
+                <h3>Mystery Game</h3>
+                <p>
+                  mystery board game adapted to web
+                </p>
+                <div class="slide-icon">
+                  <a class="icon" href=""><i class="fa-brands fa-github"></i></a>
+                  <a class="icon" href="https://misterio-failtures.netlify.app/"><i class="fa-solid fa-globe"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-img">
+                <img src="assets/notes.png" alt="notes">
+              </div>
+              <div class="slide-info">
+                <h3>Notes application</h3>
+                <p> simple notes app (incomplete)</p>
+                <div class="slide-icon">
+                  <a class="icon" href="https://github.com/lucianooieni/notes-backend" target="_blank"><i
+                      class="fa-brands fa-github"></i></a>
+                  <a class="icon" href="https://desolate-ocean-04924.herokuapp.com/" target="_blank"><i
+                      class="fa-solid fa-globe"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide-content">
+              <div class="slide-img">
+                <img src="assets/responsive-web-page.png" alt="responsive web page">
+              </div>
+              <div class="slide-info">
+                <h3>Peronal Website</h3>
+                <p>website for all devices</p>
+                <div class="slide-icon">
+                  <a class="icon" href=""><i class="fa-brands fa-github"></i></a>
+                  <a class="icon" href=""><i class="fa-solid fa-globe"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="contact">
+    <div class="container flex-column-center">
+      <h3 class="title">Contact me</h3>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Ingresa tu nombre"
+          title="Nombre sólo acepta letras y espacios en blanco" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$">
+        <input type="email" name="email" placeholder="Ingresa tu correo" title="Email incorrecto"
+          pattern="[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+        <textarea name="comments" cols="30" rows="10" placeholder="Déjame tus comentarios" required></textarea>
+        <div class="contact-form-loader text-center none">
+          <img src="assets/loader.svg" alt="Enviando...">
+        </div>
+        <input class="btn" type="submit" value="ENVIAR MENSAJE">
+      </form>
+      <article id="gracias" class="modal">
+        <div class="modal-content">
+          <article class="contact-form-response">
+            <h3>¡Thank you!
+              <br>
+              for your comments
+            </h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M12,18c4,0,5-4,5-4H7C7,14,8,18,12,18z" />
+              <path
+                d="M12,2C6.486,2,2,6.486,2,12c0,5.514,4.486,10,10,10s10-4.486,10-10C22,6.486,17.514,2,12,2z M12,20c-4.411,0-8-3.589-8-8 s3.589-8,8-8s8,3.589,8,8S16.411,20,12,20z" />
+              <path
+                d="M13 12l2 .012C15.012 11.55 15.194 11 16 11s.988.55 1 1h2c0-1.206-.799-3-3-3S13 10.794 13 12zM8 11c.806 0 .988.55 1 1h2c0-1.206-.799-3-3-3s-3 1.794-3 3l2 .012C7.012 11.55 7.194 11 8 11z" />
+            </svg>
+          </article>
+        </div>
+      </article>
+    </div>
+  </section>
+  <footer class="footer flex-column-center">
+    <nav id="social-footer" class="social-footer none">
+      <a class="icon-social-footer" href="https://twitter.com/lucianooienidev" target="_blank" rel="noopener"><i
+          class="fa-brands fa-twitter"></i></a>
+      <a class="icon-social-footer" href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+      <a class="icon-social-footer" href="https://www.linkedin.com/in/lucianooieni/" target="_blank" rel="noopener"><i
+          class="fa-brands fa-linkedin-in"></i></a>
+      <a class="icon-social-footer" href="https://github.com/lucianooieni" target="_blank" rel="noopener"><i
+          class="fa-brands fa-github"></i></a>
+    </nav>
+    <p class="footer-copyright">
+      copyright©<span>2022</span>. Designed and developed by <span>@lucianoOieni</span></p>
+  </footer>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
